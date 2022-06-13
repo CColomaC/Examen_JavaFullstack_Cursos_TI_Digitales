@@ -56,8 +56,8 @@ public class CursosTiDigitalesApplication {
 			if(cRepo.count() == 0) {
 				Curso cursoJava = Curso.builder()
 										.nombre("Fundamentos de Programacion en Java")
-										.fechaInicio(LocalDate.of(2022, 6, 13))
-										.fechaFin(LocalDate.of(2023, 01, 27))
+										.fechaInicio(LocalDate.of(2023, 3, 3))
+										.fechaFin(LocalDate.of(2023, 12, 20))
 										.cupos(30)
 										.descripcion("Fundamentos básicos para crear aplicaciones con interfaces de usuario.")
 										.imagen(Files.readAllBytes(Paths.get("src/main/resources/static/img/java.jpg")))
